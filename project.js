@@ -1,5 +1,12 @@
-function getGreeting(name){
-    return "Hi " + name;
+function getGreeting(name) {
+  return "Hi " + name;
 }
 
-module.exports = getGreeting;
+let getGreetingTwo = (name) => {
+  return "Yo " + name;
+};
+
+module.exports = {
+  getGreeting,
+  getGreetingTwo,
+};
