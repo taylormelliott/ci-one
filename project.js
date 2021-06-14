@@ -10,3 +10,5 @@ module.exports = {
   getGreeting,
   getGreetingTwo,
 };
+
+console.log("Taylor");
